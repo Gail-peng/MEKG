@@ -36,15 +36,20 @@
 
 ```chatinput
   [MEKG]/# 项目根目录
-    ├── ceate-cutting-tool-graph/             # 正常使用的创建图谱项目代码和数据
-      ├── data/                                    # 图谱数据
-          ├── .py                      # 下载实验CSV相关的接口代码
-          ├── exp_selfdefine.py                    # 自定义实验的接口代码
-          ├── exp_transmission_accuracy.py         # 传动精度实验的接口代码
-          ├── get_file_name.py                     # 获取文件名称的接口代码
-      ├── create-raw-cutting-tool-graph/      # 原始数据和处理脚本
-          ├── get_node.py                           # 创建图谱节点用
-          ├── get_relation.py                       # 创建图谱关系用
+    ├── ceate-cutting-tool-graph/          # 正常使用的创建图谱项目代码和数据
+      ├── data/                               # 图谱数据文件夹
+        ├── data.json                           # 图谱数据文件 
+      ├── config/                             # 配置参数文件夹
+        ├── config.json                         # 代码参数配置文件
+      ├── module/                             # 代码模块文件夹
+        ├── connection.py                       # 创建链接
+        ├── graph_builder.py                    # 图谱构建器
+        ├── node2graph.py                       # 创建节点代码
+        ├── rel2graph.py                        # 创建关系代码
+      ├── main.py                         # 主文件
+    ├── create-raw-cutting-tool-graph/        # 原始数据和处理脚本
+      ├── get_node.py                           # 创建图谱节点用
+      ├── get_relation.py                       # 创建图谱关系用
 ```
 
 create-raw-cutting-tool-graph文件夹中的是原始整理的数据和数据录入脚本，没有任何使用的必要。
@@ -52,3 +57,8 @@ create-raw-cutting-tool-graph文件夹中的是原始整理的数据和数据录
 创建图谱使用create-cutting-tool-graph文件下的文件即可
 
 ## 创建知识图谱
+
+## 1.首先配置config文件夹下的配置项
+
+## 2.然后运行main.py文件即可创建知识图谱
+
