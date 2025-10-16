@@ -46,8 +46,8 @@
         ├── graph_builder.py                    # 图谱构建器
         ├── node2graph.py                       # 创建节点代码
         ├── rel2graph.py                        # 创建关系代码
-      ├── main.py                         # 主文件
-    ├── create-raw-cutting-tool-graph/        # 原始数据和处理脚本
+      ├── main.py                             # 主文件
+    ├── create-raw-cutting-tool-graph/     # 原始数据和处理脚本
       ├── get_node.py                           # 创建图谱节点用
       ├── get_relation.py                       # 创建图谱关系用
 ```
