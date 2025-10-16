@@ -1,8 +1,0 @@
-gb https://www.imgurl.org/delete/ad13aec545135db1
-mt https://www.imgurl.org/delete/44aa262e1f4073d8
-mr https://www.imgurl.org/delete/fca06bef701a7438
-fg https://www.imgurl.org/delete/c3a6103323be97c2
-or https://www.imgurl.org/delete/aaf5331276c914f5
-1 https://s3.bmp.ovh/imgs/2022/04/25/8bd3a3e5991385b1.png
-2 https://s3.bmp.ovh/imgs/2022/04/25/e70820b5352b24df.png
-3 https://s3.bmp.ovh/imgs/2022/04/25/323d40355fcc4782.png

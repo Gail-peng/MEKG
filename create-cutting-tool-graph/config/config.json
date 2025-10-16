@@ -1,0 +1,6 @@
+{
+  "url":"bolt://localhost:7687",
+  "user":"neo4j",
+  "password":"123456789",
+  "file_path":"./data/data.json"
+}
